@@ -1,9 +1,7 @@
+#!/bin/bash
+
 balance () {
   convert "$1" -normalize -auto-gamma "$1"
-}
-
-randomBool () {
-  return $((RANDOM % 2))
 }
 
 applyFilterTo () {
