@@ -1,9 +1,5 @@
 #!/bin/bash
 
-balance () {
-  convert "$1" -normalize -auto-gamma "$1"
-}
-
 applyFilterTo () {
   # Create a temp workspace and bring our image there as a PNG
   dir=$(mktemp -d)
